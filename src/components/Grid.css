@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  justify-content: center;
+}
+
+.grid-cell {
+  width: 40px;
+  height: 40px;
+  background-color: lightblue;
+  border: 1px solid #fff;
+  transition: background-color 0.2s ease-in;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
